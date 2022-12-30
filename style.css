@@ -1,0 +1,149 @@
+
+
+.main{
+    background-color: black;
+}
+
+
+.home{
+    background-color: black;
+    margin: 10px;
+    padding: 30px;
+    /* height: 700px; */
+    width: 1300px;
+    color: white;
+    font-size: 105px;
+    display: flex;
+   text-align: left;
+}
+.img{
+    display: flex;
+    border-color: yellow;
+    }
+    .aboutpage{
+        width: 1000p;
+        height: 600px;
+        background-color: white;
+        color: black;
+     }
+    .section2{
+        display: flex;
+        flex-direction: row;
+}
+    .item{
+        border: 2px solid black;
+        
+        width: 200px;
+        background-color: white;
+        color: black;
+        display: flex;
+        row-gap: 10px;
+    }
+    h1{
+        margin: 10px;
+        padding: 20px;
+        text-decoration: solid;
+
+    }
+    .services{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        flex-direction: row;
+       }
+       .content{
+        display: flex;
+        border: 5px;
+        border-color: black;
+        width: 250px;
+        height: 250px;
+}
+.fcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+    /* border-color: 5px solid black; */
+    border: 2px white;
+    margin:10px;
+    padding: 30px;
+    }
+ 
+.services{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    /* border: 2px solid black; */
+    width: 1210px;
+    text-align: left;
+    
+   }
+   .heading{
+    margin: 7px;
+    padding: 10px;
+    font-size: 50px;
+}
+.boxes{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+   height: 300px;
+    
+}
+.box1{
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
+    border: 3px solid black;
+    border-color:solid black;
+}
+.box2{
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
+    border: 3px solid black;
+    border-color:solid black;
+}
+.box3{
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
+    border: 3px solid black;
+    border-color:solid black;
+}
+.our-services{
+    border:white;
+}
+.section4{
+    background-color: black;
+    text-align: center;
+    row-gap: 2px;
+    color: white;
+}
+.home{
+     position: relative;
+     animation-name: shital1;
+     animation-duration: 5s;
+     animation-iteration-count: 7;
+    
+     } 
+ @keyframes shital1{ 
+     0%{
+        opacity: 0;
+         
+ }
+     100%{
+        opacity: 1;
+        
+ } 
+     }
+
+     .form-item{
+        margin: 10px;
+        padding: 10px;
+        width: 1250px;
+        text-align: center;
+        color: white;
+        background-color: black;
+     }
